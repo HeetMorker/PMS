@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://sunrise-team.onrender.com/api", 
+  baseURL: "https://pms-d9fj.onrender.com/api", 
 });
 
 api.interceptors.request.use((config) => {

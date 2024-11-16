@@ -131,7 +131,7 @@ const AdminEditProfile = ({ onCancel }) => {
           <img
             src={
               formData.profileImage && !(formData.profileImage instanceof File)
-                ? `https://sunrise-team.onrender.com/${formData.profileImage}`
+                ? `https://pms-d9fj.onrender.com/${formData.profileImage}`
                 : userImage
             }
             alt="Profile"

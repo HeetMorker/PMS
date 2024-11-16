@@ -58,7 +58,7 @@ const PatientEditProfile = () => {
             address: patient.address,
           });
 
-          setProfileImagePreview(`https://sunrise-team.onrender.com/${patient.profileImage}`);
+          setProfileImagePreview(`https://pms-d9fj.onrender.com/${patient.profileImage}`);
           setLoading(false);
         }
       } catch (err) {

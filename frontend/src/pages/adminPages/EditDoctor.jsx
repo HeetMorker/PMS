@@ -76,8 +76,8 @@ const EditDoctor = () => {
         });
 
         // Set preview images
-        setProfileImagePreview(`https://sunrise-team.onrender.com/${doctor.profileImage}`);
-        setSignatureImagePreview(`https://sunrise-team.onrender.com/${doctor.signatureImage}`);
+        setProfileImagePreview(`https://pms-d9fj.onrender.com/${doctor.profileImage}`);
+        setSignatureImagePreview(`https://pms-d9fj.onrender.com/${doctor.signatureImage}`);
 
         // Conditionally show hospital fields
         setShowHospitalFields(doctor.doctorDetails.workType === "Online" || doctor.doctorDetails.workType === "Both");

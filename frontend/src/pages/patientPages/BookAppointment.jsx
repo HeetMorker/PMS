@@ -364,7 +364,7 @@ useEffect(() => {
 //             <div className="bg-white shadow-lg rounded-lg p-6">
 //               <div className="flex items-center mb-4">
 //                 <img
-//                   src={`https://sunrise-team.onrender.com/${doctorDetails.profileImage || noappointmentrecord}`}
+//                   src={`https://pms-d9fj.onrender.com/${doctorDetails.profileImage || noappointmentrecord}`}
 //                   alt="Doctor"
 //                   className="w-16 h-16 rounded-full mr-4"
 //                 />
@@ -618,7 +618,7 @@ useEffect(() => {
         <div className="bg-white shadow-lg rounded-lg p-6">
           <div className="flex items-center mb-4">
             <img
-              src={`https://sunrise-team.onrender.com/${doctorDetails.profileImage || noappointmentrecord}`}
+              src={`https://pms-d9fj.onrender.com/${doctorDetails.profileImage || noappointmentrecord}`}
               alt="Doctor"
               className="w-16 h-16 rounded-full mr-4"
             />

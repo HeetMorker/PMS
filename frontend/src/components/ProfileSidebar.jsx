@@ -19,7 +19,7 @@ const ProfileSidebar = ({ activeSection, setActiveSection }) => {
 
         // Check if the profileImage is a relative path and construct the full URL
         const imageUrl = profileImage
-          ? `https://sunrise-team.onrender.com/${profileImage}`
+          ? `https://pms-d9fj.onrender.com/${profileImage}`
           : "";
 
         setUserData({

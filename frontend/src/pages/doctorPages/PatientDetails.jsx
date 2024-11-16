@@ -85,7 +85,7 @@ const PatientDetail = () => {
         <div className="flex justify-between items-start">
           <div className="flex-shrink-0">
             <img
-              src={`https://sunrise-team.onrender.com/${patientData.profileImage}`}
+              src={`https://pms-d9fj.onrender.com/${patientData.profileImage}`}
               alt="Patient"
               className="w-32 h-32 rounded-full object-cover"
             />

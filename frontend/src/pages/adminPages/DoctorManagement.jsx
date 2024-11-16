@@ -139,7 +139,7 @@ const DoctorManagement = () => {
                     <img
                       src={
                         doctor.profileImage
-                          ? `https://sunrise-team.onrender.com/${doctor.profileImage}`
+                          ? `https://pms-d9fj.onrender.com/${doctor.profileImage}`
                           : userImage
                       }
                       alt="Doctor"

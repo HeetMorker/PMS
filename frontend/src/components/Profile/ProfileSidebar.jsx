@@ -26,7 +26,7 @@ const ProfileSidebar = () => {
   return (
     <div className="p-6 text-center">
       <img
-        src={profileImage ? `https://sunrise-team.onrender.com/${profileImage}` : user}
+        src={profileImage ? `https://pms-d9fj.onrender.com/${profileImage}` : user}
         alt="Profile"
         className="w-48 h-48 mx-auto rounded-full mb-4"
       />
