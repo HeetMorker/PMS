@@ -144,8 +144,8 @@ const ChatPage = () => {
         throw new Error(`Error ${sendMessageResponse.status}: ${sendMessageResponse.statusText}`);
       }
 
-      setNewMessage(""); // Clear input field after sending the message
-      scrollToBottom(); // Scroll to bottom after sending the message
+      setNewMessage(""); 
+      scrollToBottom(); 
     } catch (error) {
       console.error("Error sending message:", error);
     }
